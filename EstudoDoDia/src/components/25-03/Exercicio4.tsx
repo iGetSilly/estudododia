@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 
 // Crie um componente com um input de nome. Toda vez que o nome mudar, salve no localStorage.
 // Quando o componente carregar, leia o localStorage e preencha o input com o valor salvo.

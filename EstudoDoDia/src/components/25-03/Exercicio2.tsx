@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 // Crie uma lista de produtos com um select de filtro por categoria. Cada produto tem nome e categoria. O filtro tem a opção "todas" mais as categorias existentes.
 

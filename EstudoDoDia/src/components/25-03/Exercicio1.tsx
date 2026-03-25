@@ -1,8 +1,10 @@
 import { useState } from 'react'
 
+// Crie um componente com um select de cores: vermelho, verde, azul. Abaixo do select, mostre o texto "Você selecionou: X" com a cor escolhida.
+
 type Cores = "Vermelho" | "Verde" | "Azul"
 
-function EstudoDoDia() {
+function Exercicio1() {
   const [cores, setCores] = useState<Cores | "Todas">("Todas")
 
   return (
@@ -18,4 +20,4 @@ function EstudoDoDia() {
   )
 }
 
-export default EstudoDoDia
+export default Exercicio1

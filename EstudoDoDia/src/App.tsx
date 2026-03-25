@@ -1,10 +1,13 @@
 import './App.css'
-import EstudoDoDia from './components/25-03/Exercicio1'
+import Exercicio1 from './components/25-03/Exercicio1'
+import Exercicio2 from './components/25-03/Exercicio2'
+
 
 function App() {
   return (
     <>
-     <EstudoDoDia/>
+     <Exercicio1/>
+     <Exercicio2/>
     </>
   )
 }

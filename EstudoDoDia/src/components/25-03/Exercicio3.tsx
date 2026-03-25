@@ -19,7 +19,7 @@ interface Produto {
 function Exercicio3() {
   const [form, setForm] = useState({
     name: "",
-    categoria: "eletronico" as Categoria,
+    categoria: "Eletronico" as Categoria,
   });
   const [list, setList] = useState<Produto[]>([]);
   const [filtro, setFiltro] = useState<Categoria | "Todas">("Todas");

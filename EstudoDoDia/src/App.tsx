@@ -1,6 +1,7 @@
 import './App.css'
 import Exercicio1 from './components/25-03/Exercicio1'
 import Exercicio12603 from './components/26-03/Exercicio1'
+import Exercicio22603 from './components/26-03/Exercicio2'
 import Exercicio2 from './components/25-03/Exercicio2'
 import Exercicio3 from './components/25-03/Exercicio3'
 import Exercicio4 from './components/25-03/Exercicio4'
@@ -13,15 +14,25 @@ function App() {
   return (
     <>
     <h1>25/03/2026</h1>
+    <h3>Exercicio 1</h3>
      <Exercicio1/>
+     <h3>Exercicio 2</h3>
      <Exercicio2/>
+     <h3>Exercicio 3</h3>
      <Exercicio3/>
+     <h3>Exercicio 4</h3>
      <Exercicio4/>
+     <h3>Exercicio 5</h3>
      <Exercicio5/>
+     <h3>Exercicio 6</h3>
      <Exercicio6/>
+     <h3>Exercicio 7</h3>
      <Exercicio7/>
      <h1>26/03/26</h1>
+     <h3>Exercicio 1</h3>
      <Exercicio12603/>
+     <h3>Exercicio 2</h3>
+     <Exercicio22603/>
     </>
   )
 }

@@ -2,6 +2,7 @@ import './App.css'
 import Exercicio1 from './components/25-03/Exercicio1'
 import Exercicio12603 from './components/26-03/Exercicio1'
 import Exercicio22603 from './components/26-03/Exercicio2'
+import Exercicio32603 from './components/26-03/Exercicio3'
 import Exercicio2 from './components/25-03/Exercicio2'
 import Exercicio3 from './components/25-03/Exercicio3'
 import Exercicio4 from './components/25-03/Exercicio4'
@@ -33,6 +34,8 @@ function App() {
      <Exercicio12603/>
      <h3>Exercicio 2</h3>
      <Exercicio22603/>
+     <h3>Exercicio 3</h3>
+     <Exercicio32603/>
     </>
   )
 }

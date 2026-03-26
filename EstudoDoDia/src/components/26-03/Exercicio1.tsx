@@ -1,5 +1,8 @@
 import { useEffect, useState } from "react";
 
+// Busca essa URL e mostra só o título e o corpo de cada post na tela. Loading e error obrigatórios.
+// https://jsonplaceholder.typicode.com/posts
+
 interface Posts {
   id: number;
   title: string;

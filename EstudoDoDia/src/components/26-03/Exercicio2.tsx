@@ -1,5 +1,8 @@
 import { useEffect, useState } from "react";
 
+// Busca um único post pelo id. Mostre o título e o corpo. Loading e error obrigatórios.
+// https://jsonplaceholder.typicode.com/posts/1
+
 interface Posts {
   id: number;
   title: string;
@@ -13,8 +16,10 @@ function Exercicio2() {
   const [error, setError] = useState<string>("");
 
   useEffect(() => {
-    if (!id || isNaN(id)) return
+    if (!id || isNaN(id)) return;
     const buscar = async () => {
+      setLoading(true);
+      setError("");
       try {
         const response = await fetch(
           `https://jsonplaceholder.typicode.com/posts/${id}`,

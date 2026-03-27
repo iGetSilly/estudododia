@@ -1,5 +1,9 @@
 import { useEffect, useState } from "react";
 
+// Busca uma lista de todos os posts e mostra na tela. Adiciona um input de busca que filtra os posts pelo título em tempo real 
+// — sem fazer novo fetch, filtrando o array que já veio da API.
+// Loading e error obrigatórios. Lista filtrada como estado derivado.
+
 interface Posts {
   id: number,
   title: string,

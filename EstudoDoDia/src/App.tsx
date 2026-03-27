@@ -10,6 +10,7 @@ import Exercicio12603 from './components/26-03/Exercicio1'
 import Exercicio22603 from './components/26-03/Exercicio2'
 import Exercicio32603 from './components/26-03/Exercicio3'
 import Exercicio42603 from './components/26-03/Exercicio4'
+import Exercicio52603 from './components/26-03/Exercicio5'
 
 
 function App() {
@@ -39,6 +40,8 @@ function App() {
      <Exercicio32603/>
      <h3>Exercicio 4</h3>
      <Exercicio42603/>
+     <h3>Exercicio 5</h3>
+     <Exercicio52603/>
     </>
   )
 }

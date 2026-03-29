@@ -11,9 +11,12 @@ import Exercicio22603 from "./components/26-03/Exercicio2";
 import Exercicio32603 from "./components/26-03/Exercicio3";
 import Exercicio42603 from "./components/26-03/Exercicio4";
 import Exercicio52603 from "./components/26-03/Exercicio5";
-import BotaoTema from "./components/28-03/contexts/Exercicio1/BotaoTema";
-import Header from "./components/28-03/contexts/Exercicio1/Header";
-import ThemeProvider from "./components/28-03/contexts/Exercicio1/ThemeProvider";
+import BotaoTema from "./components/28-03/Exercicio1/BotaoTema";
+import Header from "./components/28-03/Exercicio1/Header";
+import ThemeProvider from "./components/28-03/Exercicio1/contexts/ThemeProvider";
+import LoginForm from "./components/28-03/Exercicio2/LoginForm";
+import UserInfo from "./components/28-03/Exercicio2/UserInfo";
+import UserProvider from "./components/28-03/Exercicio2/contexts/userProvider";
 
 function App() {
   return (
@@ -55,6 +58,10 @@ function App() {
         <Header></Header>
         <BotaoTema></BotaoTema>
       </ThemeProvider>
+      <UserProvider>
+        <UserInfo></UserInfo>
+        <LoginForm></LoginForm>
+      </UserProvider>
     </>
   );
 }

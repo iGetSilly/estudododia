@@ -11,12 +11,14 @@ import Exercicio22603 from "./components/26-03/Exercicio2";
 import Exercicio32603 from "./components/26-03/Exercicio3";
 import Exercicio42603 from "./components/26-03/Exercicio4";
 import Exercicio52603 from "./components/26-03/Exercicio5";
+import Exercicio13003 from "./components/30-03/Exercicio1";
+import Exercicio23003 from "./components/30-03/Exercicio2";
 import BotaoTema from "./components/28-03/Exercicio1/BotaoTema";
 import Header from "./components/28-03/Exercicio1/Header";
 import ThemeProvider from "./components/28-03/Exercicio1/contexts/ThemeProvider";
 import LoginForm from "./components/28-03/Exercicio2/LoginForm";
 import UserInfo from "./components/28-03/Exercicio2/UserInfo";
-import UserProvider from "./components/28-03/Exercicio2/contexts/userProvider";
+import UserProvider from "./components/28-03/Exercicio2/contexts/UserProvider";
 
 function App() {
   return (
@@ -62,6 +64,14 @@ function App() {
         <UserInfo></UserInfo>
         <LoginForm></LoginForm>
       </UserProvider>
+      <h1>29/03/26</h1>
+      <p>Folga - Domingo</p>
+      <h1>30/03/26</h1>
+      <h3>Exercicio 1</h3>
+      <Exercicio13003></Exercicio13003>
+      <h3>Exercicio 2</h3>
+      <Exercicio23003></Exercicio23003>
+
     </>
   );
 }

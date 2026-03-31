@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useUser } from './contexts/userContext'
+import { useUser } from './contexts/UserContext'
 
 function LoginForm() {
     const {login, logout} = useUser()

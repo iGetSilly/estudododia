@@ -3,7 +3,7 @@ import { UserContext } from "./UserContext";
 
 export default function UserProvider({
   children,
-}: {
+} : {
   children: React.ReactNode;
 }) {
   const [name, setName] = useState<string>("");

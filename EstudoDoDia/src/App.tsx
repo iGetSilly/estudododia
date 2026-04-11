@@ -13,6 +13,8 @@ import Exercicio42603 from "./components/26-03/Exercicio4";
 import Exercicio52603 from "./components/26-03/Exercicio5";
 import Exercicio13003 from "./components/30-03/Exercicio1";
 import Exercicio23003 from "./components/30-03/Exercicio2";
+import LoginZod from "./components/11-04 - zod/LoginForm";
+import Exercicio21104 from "./components/11-04 - zod/Exercicio2";
 import BotaoTema from "./components/28-03/Exercicio1/BotaoTema";
 import Header from "./components/28-03/Exercicio1/Header";
 import ThemeProvider from "./components/28-03/Exercicio1/contexts/ThemeProvider";
@@ -71,7 +73,11 @@ function App() {
       <Exercicio13003></Exercicio13003>
       <h3>Exercicio 2</h3>
       <Exercicio23003></Exercicio23003>
-
+      <h1>11/04/26</h1>
+      <h3>Exercicio 1</h3>
+      <LoginZod></LoginZod>
+      <h3>Exercicio 2</h3>
+      <Exercicio21104></Exercicio21104>
     </>
   );
 }

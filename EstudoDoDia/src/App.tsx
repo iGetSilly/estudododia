@@ -15,6 +15,7 @@ import Exercicio13003 from "./components/30-03/Exercicio1";
 import Exercicio23003 from "./components/30-03/Exercicio2";
 import LoginZod from "./components/11-04 - zod/LoginForm";
 import Exercicio21104 from "./components/11-04 - zod/Exercicio2";
+import Exercicio31104 from "./components/11-04 - zod/Exercicio3";
 import BotaoTema from "./components/28-03/Exercicio1/BotaoTema";
 import Header from "./components/28-03/Exercicio1/Header";
 import ThemeProvider from "./components/28-03/Exercicio1/contexts/ThemeProvider";
@@ -78,6 +79,8 @@ function App() {
       <LoginZod></LoginZod>
       <h3>Exercicio 2</h3>
       <Exercicio21104></Exercicio21104>
+      <h3>Exercicio 3</h3>
+      <Exercicio31104></Exercicio31104>
     </>
   );
 }

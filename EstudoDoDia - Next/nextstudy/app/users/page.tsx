@@ -17,7 +17,7 @@ export default async function Users({ searchParams }: Props) {
   const users: Users[] = await response.json();
 
   const filtrados = query
-    ? users.filter((user) =>
+    ? users.filter((user) =>-
         user.name.toLowerCase().includes(query.toLowerCase()),
       )
     : users;
